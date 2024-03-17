@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+input[type=text], button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}

@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Trained model directory
+trained_model/
+
+# Dataset
+Emotion_classify_Data.csv
+
+# Flask app specific
+app/__pycache__/
+model/__pycache__/
