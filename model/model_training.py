@@ -8,7 +8,12 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 
 # Load the dataset
-df = pd.read_csv('Emotion_classify_Data.csv')
+try:
+    df = pd.read_csv('Emotion_classify_Data.csv')
+except FileNotFoundError:
+    print("Error: 'Emotion_classify_Data.csv' not found.\nPlease download the 'Emotion Dataset' from Kaggle user 'ABDALLAH WAGIH IBRAHIM'\nand extract it to the root directory of this project.")
+    import sys
+    sys.exit()
 comments = df['Comment'].values
 emotions = pd.get_dummies(df['Emotion']).values
 
