@@ -14,6 +14,7 @@ def index():
 
 @main.route('/predict', methods=['POST'])
 def predict():
+    # Process input text and predict the corresponding emotion
     text = request.form['text']
     processed_text = preprocess_text(text)
     prediction = model.predict(processed_text)
