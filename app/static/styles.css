@@ -9,6 +9,7 @@ input[type=text], button {
     margin: 10px 0;
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
 }
 
 form {
