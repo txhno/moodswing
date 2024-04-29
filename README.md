@@ -1,4 +1,4 @@
-# MoodSwing-Emotion-Classifier
+# MoodSwing: Emotion Classifier
 
 This MoodSwing-Emotion-Classifier is a Flask-based web application that leverages a TensorFlow model trained on the "Emotion Dataset" from Kaggle. It classifies user-input text comments into emotions such as joy, anger, and fear, demonstrating the integration of a TensorFlow machine learning model with a web frontend for real-time emotion classification.
 
